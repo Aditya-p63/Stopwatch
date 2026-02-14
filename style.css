@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    flex-direction: column;
+}
+
+.stopwatch{
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px 24px;
+    border-radius: 10px;
+}
+
+.timer{
+    font-size: 50px;
+    font-weight: 600;
+
+}
+
+.btn{
+    font-size: 20px;
+    background: none;
+    border: none;
+    color: white;
+    background-color: var(--clr);
+    padding: 12px 24px;
+    /* first top bottom then left right  */
+    margin-inline: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.button{
+    margin-top: 20px;
+}
